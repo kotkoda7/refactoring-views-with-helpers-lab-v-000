@@ -1,3 +1,4 @@
 module ArtistsHelper
-  def display_song
+  def display_artist(song)
+    
 end
