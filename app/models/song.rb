@@ -8,6 +8,6 @@ class Song < ActiveRecord::Base
   end
 
   def artist_name=(name)
-    self.artist = find_or_create_by()
+    self.artist = Artist.find_or_create_by()
   end
 end
